@@ -1,16 +1,125 @@
-# React + Vite
+# 💰 Finance Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and interactive **Finance Dashboard** built using **React + Vite**, designed to visualize financial data like income, expenses, and balance trends with clean UI and charts.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+🔗 https://finance-dashboard-sigma-five.vercel.app
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* 📊 **Balance Overview**
+
+  * Displays total balance, income, and expenses
+
+* 📈 **Interactive Charts**
+
+  * Line chart for balance trends
+  * Pie chart for spending breakdown
+
+* 🔄 **Role Toggle**
+
+  * Switch between Viewer/Admin roles (UI-based)
+
+* 📋 **Transaction Table**
+
+  * Displays transaction history
+
+* ⚡ **Fast Performance**
+
+  * Built with Vite for lightning-fast loading
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** React, Vite
+* **Charts:** Recharts
+* **Styling:** CSS
+* **Deployment:** Vercel
+
+---
+
+## 📁 Project Structure
+
+```
+finance-dashboard/
+│── public/
+│── src/
+│   ├── components/
+│   │   ├── Dashboard.jsx
+│   │   ├── SummaryCards.jsx
+│   │   ├── ChartSection.jsx
+│   │   ├── TransactionTable.jsx
+│   │   ├── RoleToggle.jsx
+│   │   └── Insights.jsx
+│   ├── data/
+│   │   └── data.js
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│── package.json
+│── vite.config.js
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository
+
+```
+git clone https://github.com/navneetchinchole04/finance-dashboard.git
+```
+
+2. Navigate to project folder
+
+```
+cd finance-dashboard
+```
+
+3. Install dependencies
+
+```
+npm install
+```
+
+4. Run the project
+
+```
+npm run dev
+```
+
+---
+
+## 📦 Build for Production
+
+```
+npm run build
+```
+
+---
+
+## 📌 Future Improvements
+
+* 🔐 Add authentication (login system)
+* 🌐 Connect to backend (Node.js + MongoDB)
+* 📊 Real-time financial data
+* 🎨 UI improvements with Tailwind CSS
+
+---
+
+## 👨‍💻 Author
+
+**Navneet Chinchole**
+GitHub: https://github.com/navneetchinchole04
+
+---
+
+## ⭐ If you like this project
+
+Give it a ⭐ on GitHub and share feedback!
